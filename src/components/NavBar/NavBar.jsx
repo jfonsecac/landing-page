@@ -43,17 +43,7 @@ const DropdownLinks=[
         name:"Resgistrate",
         link:"/Form",
     },
-    {
-        id:2,
-        name:"Convocatoria Laboral",
-        link:"/#",
-
-    },
-    {
-        id:3,
-        name:"Seguimiento",
-        link:"/#"
-    }
+    
     
 ];
 
@@ -91,54 +81,8 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      {/*lower NavBar sanguche*/}
-      <div className="sm:flex md:hidden lg:hidden">
-        <nav className="flex items-center justify-between flex-wrap bg-white-500 p-6">
-        
-          <div className="">
-            <button
-              id="boton"
-              className="flex items-center px-3 py-2 border rounded text-primary border-primary hover:text-white hover:border-white"
-            >
-              <svg
-                className="fill-current h-3 w-3"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>Menu</title>
-                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-              </svg>
-            </button>
-          </div>
-          <div
-            id="menu"
-            className="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
-          >
-            <div className="text-sm lg:flex-grow">
-              <a
-                href="#responsive-header"
-                className="block mt-4 lg:inline-block lg:mt-0 text-primary hover:text-white mr-4"
-              >
-                Nosotros
-              </a>
-              <a
-                href="#responsive-header"
-                className="block mt-4 lg:inline-block lg:mt-0 text-primary hover:text-white mr-4"
-              >
-                Proyectos
-              </a>
-              <a
-                href="#responsive-header"
-                className="block mt-4 lg:inline-block lg:mt-0 text-primary hover:text-white"
-              >
-                Equipo
-              </a>
-            </div>
-            
-          </div>
-        </nav>
-      </div>
-
+      
+      
 
       {/* menu normal */}
       <div className="flex justify-center">

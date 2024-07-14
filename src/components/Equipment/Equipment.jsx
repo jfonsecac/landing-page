@@ -72,7 +72,7 @@ const Equipment = () => {
           </h1>
         </div>
 
-        {/* Testimonial cards */}
+        {/* workers cards */}
         <div data-aos="zoom-in">
           <Slider {...settings}>
             {EquipmentsData.map((data) => (

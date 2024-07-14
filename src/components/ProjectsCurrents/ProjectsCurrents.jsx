@@ -4,7 +4,7 @@ import Img2 from "../../assets/Projects/Proyecto2.jpg";
 import Img3 from "../../assets/Projects/Proyecto3.jpg";
 import Img4 from "../../assets/Projects/Proyecto4.jpg";
 import Img5 from "../../assets/Projects/Proyecto5.jpg";
-// import { FaStar } from "react-icons/fa6";
+
 
 
 const ProjectsData=[
@@ -12,7 +12,7 @@ const ProjectsData=[
         id:1,
         img:Img1,
         title:"Proyecto Palmeras",
-        // rating: 5.0,
+        
         locate: "Urb. Las Gaviotas - Mejía",
         aosDelay: "100",
     },
@@ -20,7 +20,7 @@ const ProjectsData=[
         id:2,
         img:Img2,
         title:"Proyecto Puerto Braco",
-        // rating: 5.0,
+        
         locate: "Urb. Las Ambarinas - La Punta",
         aosDelay: "200",
     },
@@ -28,7 +28,7 @@ const ProjectsData=[
         id:3,
         img:Img3,
         title:"Proyecto Azul",
-        // rating: 5.0,
+        
         locate: "Urb. La Colmena - Arequipa",
         aosDelay: "300",
     },
@@ -36,7 +36,7 @@ const ProjectsData=[
         id:4,
         img:Img4,
         title:"Proyecto La Luz",
-        // rating: 5.0,
+        
         locate: "Urb. Catarindo - Catarindo",
         aosDelay: "400",
     },
@@ -44,7 +44,7 @@ const ProjectsData=[
         id:5,
         img:Img5,
         title:"Proyecto Beach",
-        // rating: 5.0,
+        
         locate: "Urb. Estibadores - Arequipa",
         aosDelay: "500",
     },
@@ -52,7 +52,7 @@ const ProjectsData=[
         id:6,
         img:Img1,
         title:"Proyecto Palmeras",
-        // rating: 5.0,
+        
         locate: "Urb. Las Gaviotas - Mejía",
         aosDelay: "100",
     },
@@ -60,7 +60,7 @@ const ProjectsData=[
         id:7,
         img:Img2,
         title:"Proyecto Puerto Braco",
-        // rating: 5.0,
+        
         locate: "Urb. Las Ambarinas - La Punta",
         aosDelay: "200",
     },
@@ -68,7 +68,7 @@ const ProjectsData=[
         id:8,
         img:Img3,
         title:"Proyecto Azul",
-        // rating: 5.0,
+        
         locate: "Urb. La Colmena - Arequipa",
         aosDelay: "300",
     },
@@ -76,7 +76,7 @@ const ProjectsData=[
         id:9,
         img:Img4,
         title:"Proyecto La Luz",
-        // rating: 5.0,
+        
         locate: "Urb. Catarindo - Catarindo",
         aosDelay: "400",
     },
@@ -84,7 +84,7 @@ const ProjectsData=[
         id:10,
         img:Img5,
         title:"Proyecto Beach",
-        // rating: 5.0,
+        
         locate: "Urb. Estibadores - Arequipa",
         aosDelay: "500",
     },

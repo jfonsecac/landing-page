@@ -9,6 +9,7 @@ import {
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
+import { data } from 'autoprefixer';
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
@@ -19,23 +20,34 @@ const BannerImg = {
   width: "100%",
 };
 
-const Menu = [
+const Menu=[
   {
-    title: "inarco",
-    link: "https://www.inarco.com.pe/",
+      id:1,
+      name:"Inicio",
+      link:"/"
   },
   {
-    title: "AJCProyectos",
-    link: "https://www.ajcproyectos.com/?gad_source=1&gclid=EAIaIQobChMI89u5q-OihwMVoUJIAB1ZtQRHEAMYASAAEgLJ2_D_BwE",
+      id:2,
+      name:"Nosotros",
+      link:"/About",
   },
   {
-    title: "Construye",
-    link: "https://www.vifconstruye.com/?gad_source=1&gclid=EAIaIQobChMI89u5q-OihwMVoUJIAB1ZtQRHEAMYAiAAEgIEifD_BwE",
+      id:3,
+      name:"Proyectos",
+      link:"/ProjectsCurrents",
   },
   {
-    title: "Oviedo",
-    link: "https://constructoraoviedo.com/",
+      id:4,
+      name:"Equipo",
+      link:"/Equipe",
+
   },
+  {
+      id:5,
+      name:"Contacto",
+      link:"/Contact"
+  }
+
 ];
 
 const Footer = () => {
@@ -50,8 +62,8 @@ const Footer = () => {
               Espinoza&Lazo
             </h1>
             <p>
-            Servivicios Generales <br />
-            Contratista · Constructora · Contratista de albañilería
+              Servivicios Generales <br />
+              Contratista · Constructora · Contratista de albañilería
             </p>
           </div>
 
@@ -60,22 +72,24 @@ const Footer = () => {
             <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Constructoras
+                  Enlaces
                 </h1>
                 <ul className="flex flex-col gap-3">
-                  {Menu.map((link) => (
-                    <li
-                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
-                      key={link.title}
-                    >
-                      <span>{link.title}</span>
+                  {Menu.map((data) => (
+                    <li key={data.id}>
+                      <a
+                        href={data.link}
+                        className="inline-block px-4 hover:text-primary duration-200"
+                      >
+                        {data.name}
+                      </a>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
-           
-           {/* social links */}
+
+            {/* social links */}
 
             <div>
               <div className="flex items-center gap-3 mt-6">
@@ -92,8 +106,7 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Apvis Progreso B-19, Mollendo, Peru, 04416
-                  </p>
+                  <p>Apvis Progreso B-19, Mollendo, Peru, 04416</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
